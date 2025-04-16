@@ -16,4 +16,9 @@ export default [
   route("financeiro/faturamento", "routes/financeiro/faturamento.tsx"),
   route("financeiro/despesas", "routes/financeiro/despesas.tsx"),
   route("financeiro/relatorios", "routes/financeiro/relatorios.tsx"),
+  // Novas rotas de relatórios
+  route("relatorios", "routes/relatorios/index.tsx"),
+  route("relatorios/vendas", "routes/relatorios/vendas.tsx"),
+  route("relatorios/estoque", "routes/relatorios/estoque.tsx"),
+  route("relatorios/performance", "routes/relatorios/performance.tsx"),
 ] satisfies RouteConfig;
