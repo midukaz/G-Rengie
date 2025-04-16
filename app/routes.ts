@@ -21,4 +21,9 @@ export default [
   route("relatorios/vendas", "routes/relatorios/vendas.tsx"),
   route("relatorios/estoque", "routes/relatorios/estoque.tsx"),
   route("relatorios/performance", "routes/relatorios/performance.tsx"),
+  // Rotas de configurações
+  route("configuracoes", "routes/configuracoes/index.tsx"),
+  route("configuracoes/geral", "routes/configuracoes/geral.tsx"),
+  route("configuracoes/usuarios", "routes/configuracoes/usuarios.tsx"),
+  route("configuracoes/integracoes", "routes/configuracoes/integracoes.tsx"),
 ] satisfies RouteConfig;
